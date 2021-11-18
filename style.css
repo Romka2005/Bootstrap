@@ -15,8 +15,26 @@
     font-size: 20px;
     padding: 20px;
 }
+.form-control{
+    border: 2px solid blueviolet;
+}
+.form-control::placeholder{
+    color: blue;
+}
+form .btn{
+    border: 2px solid blueviolet;
+    color: blue;
+}
+form .btn:hover{
+    border: none;
+    background: blue;
+    color: white;
+}
 .card{
-    margin-bottom: 40px;
+    margin-bottom: 80px;  
+}
+.carousel-inner{
+    height: 400px;
 }
 .card-img-top{
     object-fit: cover;
@@ -54,4 +72,10 @@
 .card-body>a{
     background: rgb(119, 0, 255);
     border: none;
+}
+
+@media (max-width:770px){
+    .card{
+        margin: 20px auto;
+    }
 }
