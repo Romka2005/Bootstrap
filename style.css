@@ -10,9 +10,6 @@
     border: 2px solid black;
 } */
 .box{
-    min-height:100%;
-    text-align: center;
-    font-size: 20px;
     padding: 20px;
 }
 .form-control{
@@ -31,7 +28,8 @@ form .btn:hover{
     color: white;
 }
 .card{
-    margin-bottom: 80px;  
+    margin-bottom: 80px;
+    width: 18rem;  
 }
 .carousel-inner{
     height: 400px;
@@ -76,6 +74,34 @@ form .btn:hover{
 
 @media (max-width:770px){
     .card{
-        margin: 20px auto;
+        width: 15rem;
+    }
+    .carousel-inner{
+        height: 260px;
+    }
+}
+@media (max-width:510px){
+    .card{
+        width: 12rem;
+    }
+    .card-text{
+        font-size: 13px;
+    }
+    .skidka{
+        left: 80%;
+    }
+    .slauder{
+        margin: none;
+    }
+}
+@media (max-width:410px){
+    .card{
+        width: 10rem;
+    }
+    .card-body a{
+        font-size: 11px;
+    }
+    .card-text{
+        font-size: 11px;
     }
 }
